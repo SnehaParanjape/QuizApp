@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">1. What is the capital of Puerto Rico?</string>
+    <string name="question1_Santo_Domingo">Santo Domingo</string>
+    <string name="question1_San_Juan">San Juan</string>
+    <string name="question1_La_Ciudad_de_Mexico">La Ciudad de Mexico</string>
+    <string name="question1_Agua">Agua</string>
+    <string name="question1_Havanna">Havanna</string>
+    <string name="question2">2. Who plays Rachel Green in the show F.R.I.E.N.D.S?</string>
+    <string name="hintText">Enter text here</string>
+    <string name="question3">3. Where is Russia?</string>
+    <string name="question3_Asia">Asia</string>
+    <string name="question3_Europe">Europe</string>
+    <string name="question3_North_America">North America</string>
+    <string name="question3_South_America">South America</string>
+    <string name="question4">4. Which country has the most people?</string>
+    <string name="question5">5. Who is the fastest man in the world?</string>
+    <string name="question5_Mo_Farah">Mo_Farah</string>
+    <string name="question5_Usain_Bolt">Usain Bolt</string>
+    <string name="question5_Asafa_Powell">Asafa Powell</string>
+    <string name="question5_Maurice_Greene">Maurice Greene</string>
+    <string name="question6">6. Which country is Prague in?</string>
+    <string name="question7">7. Which Grand Slams has tennis player Angelique Kerber won till date?</string>
+    <string name="question7_Australian_Open">Australian Open</string>
+    <string name="question7_French_Open">French Open</string>
+    <string name="question7_Wimbledon">Wimbledon</string>
+    <string name="question7_US_Open">US Open</string>
+    <string name="question8">8. In 2011, which country hosted a Formula 1 race for the first time?</string>
+    <string name="submit">Submit</string>
+    <string name="resetButton">Reset</string>
+</resources>

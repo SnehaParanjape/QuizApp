@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.sneha.quizapp.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question1"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question1_Santo_Domingo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question1_Santo_Domingo"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+
+                <RadioButton
+                    android:id="@+id/question1_San_Juan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question1_San_Juan"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+
+                <RadioButton
+                    android:id="@+id/question1_La_Ciudad_de_Mexico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question1_La_Ciudad_de_Mexico"
+                    android:textSize="@dimen/answers_textSize" />
+
+                <RadioButton
+                    android:id="@+id/question1_Agua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question1_Agua"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+
+                <RadioButton
+                    android:id="@+id/question1_Havanna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question1_Havanna"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <EditText
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintText"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <CheckBox
+                android:id="@+id/question3_Asia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_Asia"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <CheckBox
+                android:id="@+id/question3_Europe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_Europe"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <CheckBox
+                android:id="@+id/question3_North_America"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_North_America"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <CheckBox
+                android:id="@+id/question3_South_America"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_South_America"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question4"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <EditText
+                android:id="@+id/question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintText"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question5"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radioGroup_question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question5_Mo_Farah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question5_Mo_Farah"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+
+                <RadioButton
+                    android:id="@+id/question5_Usain_Bolt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question5_Usain_Bolt"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+
+                <RadioButton
+                    android:id="@+id/question5_Asafa_Powell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question5_Asafa_Powell"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+
+                <RadioButton
+                    android:id="@+id/question5_Maurice_Greene"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question5_Maurice_Greene"
+                    android:textColor="@color/answerColor"
+                    android:textSize="@dimen/answers_textSize" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question6"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <EditText
+                android:id="@+id/question6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintText"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question7"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <CheckBox
+                android:id="@+id/question7_Australian_Open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question7_Australian_Open"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <CheckBox
+                android:id="@+id/question7_French_Open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question7_French_Open"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <CheckBox
+                android:id="@+id/question7_Wimbledon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question7_Wimbledon"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <CheckBox
+                android:id="@+id/question7_US_Open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question7_US_Open"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question8"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/questions_textSize" />
+
+            <EditText
+                android:id="@+id/question8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintText"
+                android:textColor="@color/hintColor"
+                android:textSize="@dimen/answers_textSize" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calculateScore"
+                android:text="@string/submit" />
+
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="reset"
+                android:text="@string/resetButton" />
+        </LinearLayout>
+   <!-- </ScrollView>-->
+</ScrollView>
